@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+<!-- Device repos -->
 <project path="device/samsung/universal8895-common"
 	name="SailfishOSDream/android_device_samsung_universal8895-common"
 	revision="lineage-16.0" />
 <project path="device/samsung/dreamlte"
 	name="SailfishOSDream/android_device_samsung_dreamlte"
 	revision="lineage-16.0" />
+
+<!-- Vendor repos -->
 <project path="vendor/samsung/universal8895-common"
 	name="SailfishOSDream/android_vendor_samsung_universal8895-common"
 	revision="lineage-16.0" />
 <project path="vendor/samsung/dreamlte"
 	name="SailfishOSDream/android_vendor_samsung_dreamlte"
 	revision="lineage-16.0" />
+	
+<!-- Kernel repo -->
 <project path="kernel/samsung/universal8895"
-  name="SailfishOSDream/android_kernel_samsung_universal8895"
-  revision="lineage-16.0" />
+	 name="SailfishOSDream/android_kernel_samsung_universal8895"
+	 revision="lineage-16.0" />
+	
+<!-- Hardware repo -->
 <project path="hardware/samsung"
-  name="SailfishOSDream/android_hardware_samsung"
-  revision="lineage-16.0" />
+	 name="SailfishOSDream/android_hardware_samsung"
+	 revision="lineage-16.0" />
+	
+<!-- Resource repo -->
 <project path="packages/resources/devicesettings"
-  name="SailfishOSDream/android_packages_resources_devicesettings"
-  revision="lineage-16.0" />
+	 name="SailfishOSDream/android_packages_resources_devicesettings"
+	 revision="lineage-16.0" />
+	
+<!-- Patches repos -->
+<project path="dreambuild"
+	 name="SailfishOSDream/sailfish_dreamlte_build"
+	 revision="lineage-16.0" />
 </manifest>
