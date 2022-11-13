@@ -36,4 +36,10 @@
 <project path="dreambuild"
 	 name="SailfishOSDream/sailfish_dreamlte_build"
 	 revision="lineage-16.0" />
+
+<!-- Libhybris -->
+<project path="external/libhybris"
+    	name="mer-hybris/libhybris"
+    	revision="master" />
+
 </manifest>
