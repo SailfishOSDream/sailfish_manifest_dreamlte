@@ -25,7 +25,7 @@
 <!-- Hardware repo -->
 <project path="hardware/samsung"
 	 name="SailfishOSDream/android_hardware_samsung"
-	 revision="lineage-16.0" />
+	 revision="halium-7.1" />
 	
 <!-- Resource repo -->
 <project path="packages/resources/devicesettings"
